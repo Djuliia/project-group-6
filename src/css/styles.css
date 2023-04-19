@@ -5,21 +5,90 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./fonts.css');
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./catalog.css');
+@import url('./novelty.css');
+@import url('./sale.css');
+@import url('./footer.css');
+@import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --font-family: Epilogue, sans-serif;
+  --color-dark-theme: #141414;
+  --secondary-color: #1E2827;
+  --light-color: rgba(20, 20, 20, 0.5);
+  --color-light-theme: #FFFFFF;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+body {
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: var(--primary-color-dark-theme);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 1.1;
+  }
 }
