@@ -1,21 +1,32 @@
 .header {
-  padding: 20px 0;
+  background-color: var(--color-dark-theme);
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.logo {
+  color: var(--color-light-theme);
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.logo_icon {
+  width: 14px;
+  height: 14px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.logo_text {
+  font-size: 12px;
+  line-height: 1;
+letter-spacing: -0.03em;
+}
+
+.navigaton_list {}
+
+.navigation_items {}
+
+.navigation_links {
+  color: var(--color-light-theme);
+}
+
+.header_address {}
+
+.address-link {
+  color: var(--color-light-theme);
 }
