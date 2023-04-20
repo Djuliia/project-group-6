@@ -1,4 +1,4 @@
-.header {
+.header_container {
   background-color: var(--color-dark-theme);
 }
 
@@ -9,12 +9,13 @@
 .logo_icon {
   width: 14px;
   height: 14px;
+  color: var(--color-light-theme);
 }
 
 .logo_text {
   font-size: 12px;
   line-height: 1;
-letter-spacing: -0.03em;
+  letter-spacing: -0.03em;
 }
 
 .navigaton_list {
