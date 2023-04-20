@@ -1,0 +1,36 @@
+.novelty__title {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.06em;
+    color: var(--light-color);
+    margin-bottom: 8px;
+}
+
+.novelty__suptitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width:768px) {
+    .novelty__suptitle {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}
+
+.novelty__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (min-width:1280px) {
+    .novelty__list {
+    gap: 24px;
+}
+}
