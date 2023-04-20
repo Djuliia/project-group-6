@@ -17,7 +17,18 @@
 letter-spacing: -0.03em;
 }
 
-.navigaton_list {}
+.navigaton_list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navigaton_list {
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 40px;
+  }
+}
 
 .navigation_items {}
 
