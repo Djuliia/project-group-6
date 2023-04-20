@@ -1,0 +1,64 @@
+.descr-text {
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+.descr-item:not(:last-child)  {
+    padding-bottom: 20px;
+}
+
+.descr {
+padding-top: 40px;
+}
+
+.watch-animation {
+width: 335px;
+height: 365px;
+object-fit: cover;
+}
+
+.picture-wrapper {
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .descr {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    max-width: 490px;
+    }
+
+    .descr-item {
+        padding-left: 40px;
+    }
+
+    .descr-item:not(:last-child)  {
+        padding-right: 20px;
+    }
+
+    .descr-wrapper {
+        padding-top: 64px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descr-item {
+      
+    }
+    .picture-wrapper {
+        padding-bottom: 128px;
+    }
+
+    .watch-animation {
+    width: 704px;
+    height: 465px;
+    object-fit: cover;
+    }
+
+ }
+ 
