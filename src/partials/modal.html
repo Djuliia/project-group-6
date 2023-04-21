@@ -1,23 +1,76 @@
 <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-        <button type="button" class="modal-close" data-modal-close><svg width="20" height="20" class="close-icon">
-            <use href="./img/sprite.svg#cross"></use>
-        </svg>
-        </button>
-        <div class="modal-item">
-            <img src="./img/dsktp/catalog/1-1x.png" alt="Steel watch" width="274" height="276" class="modal-item-image">
-            <h3 class="modal-item-name">Tube Watch S42 Date Steel With Black Case</h3>
-            <p class="modal-item-price">€395</p>
-        </div>
-        <div class="modal-form">
-            <form>
-                <div class="modal-input-wrap"><label for="user-name" class="modal-input-label">Full name</label><input type="text" name="user-name" id="user-name" class="modal-input" placeholder="Enter your full name" maxlength="32" pattern="^(\w\w+)\s(\w+)$" title="Дозволено тільки літери"></div>
-                <div class="modal-input-wrap"><label for="user-email" class="modal-input-label">Email</label><input type="emil" name="user-email" id="user-email" class="modal-input" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></div>
-                <div class="modal-input-wrap"><label for="card-number" class="modal-input-label">Card number</label><input type="text" name="card-number" id="card-number" class="modal-input" placeholder="Enter card"></div>
-                <div class="modal-input-wrap"><label for="user-comment" class="modal-input-label">Comments</label><textarea type="text" name="user-comment" id="user-comment" class="modal-textarea" placeholder="Enter your text"></textarea></div>
-                <button type="submit" class="modal-submit">Submit</button>
-                <p class="modal-agreement">By clicking on “SUBMIT” button, you agree to our Privacy Policy, and allow Promodo to use this information for marketing purposes.</p>
-            </form>
-        </div>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg width="20" height="20" class="close-icon">
+        <use href="./img/sprite.svg#cross"></use>
+      </svg>
+    </button>
+    <div class="modal-item">
+      <img
+        srcset="
+          ./img/dsktp/catalog/1-1x.png 1x,
+          ./img/dsktp/catalog/1-2x.png 2x
+        "
+        src="./img/dsktp/catalog/1-1x.png"
+        alt="Steel watch"
+        width="276"
+        height="274"
+        class="modal-item-image"
+      />
+      <h3 class="modal-item-name">Tube Watch S42 Date Steel With Black Case</h3>
+      <p class="modal-item-price">€395</p>
     </div>
+    <div class="modal-form">
+      <form>
+        <div class="modal-input-wrap">
+          <label for="user-name" class="modal-input-label">Full name</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="modal-input"
+            placeholder="Enter your full name"
+            maxlength="32"
+            pattern="^(\w\w+)\s(\w+)$"
+          />
+        </div>
+        <div class="modal-input-wrap">
+          <label for="user-email" class="modal-input-label">Email</label>
+          <input
+            type="emil"
+            name="user-email"
+            id="user-email"
+            class="modal-input"
+            placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          />
+        </div>
+        <div class="modal-input-wrap">
+          <label for="card-number" class="modal-input-label">Card number</label>
+          <input
+            type="text"
+            name="card-number"
+            id="card-number"
+            class="modal-input"
+            placeholder="Enter card"
+          />
+        </div>
+        <div class="modal-input-wrap">
+          <label for="user-comment" class="modal-input-label">Comments</label>
+          <textarea
+            type="text"
+            name="user-comment"
+            id="user-comment"
+            class="modal-textarea"
+            placeholder="Enter your text"
+          ></textarea>
+        </div>
+        <button type="submit" class="modal-submit">Submit</button>
+        <p class="modal-agreement">
+          By clicking on “SUBMIT” button, you agree to our Privacy Policy, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
 </div>

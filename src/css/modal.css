@@ -75,7 +75,7 @@ transition: scale var(--transition);
     stroke: black;
 }
 .modal-form {
-max-width: 295px;
+max-width: 368px;
 }
 .modal-input-wrap {
     display: flex;
@@ -120,7 +120,7 @@ color: rgba(20, 20, 20, 0.5);
 }
 .modal-submit {
     display: block;
-    max-width: 295px;
+    max-width: 368px;
     width: 100%;
     height: 50px;
     background: #1E2827;
@@ -186,7 +186,6 @@ left: 50%;
 .modal-submit:is(:hover, :focus) {
 transform: scale(1.01);
 }
-
 .modal-close:is(:hover, :focus) .close-icon {
     transform: scale(1.2);
 }
