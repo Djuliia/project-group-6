@@ -22,6 +22,8 @@
   --secondary-color: #1E2827;
   --light-color: rgba(20, 20, 20, 0.5);
   --color-light-theme: #FFFFFF;
+  --transition: 250ms linear;
+
 }
 
 body {

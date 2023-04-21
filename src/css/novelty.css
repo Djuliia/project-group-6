@@ -1,3 +1,7 @@
+.novelty {
+    background-color: var(--bg-color-new-section);
+}
+
 .novelty__title {
     font-weight: 300;
     font-size: 12px;
@@ -14,12 +18,13 @@
     letter-spacing: -0.02em;
     margin-bottom: 40px;
     text-transform: capitalize;
-}
+    }
 
 @media screen and (min-width:768px) {
     .novelty__suptitle {
         font-size: 40px;
         line-height: 1.1;
+  width: 448px;
     }
 }
 
@@ -29,8 +34,16 @@
     gap: 20px;
 }
 
+.novelty__item {
+    flex-basis: calc((100% - 20px)/2);
+}
+
 @media screen and (min-width:1280px) {
     .novelty__list {
     gap: 24px;
+}
+
+.novelty__item {
+    flex-basis: calc((100% - 24px)/2);
 }
 }
