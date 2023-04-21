@@ -32,14 +32,16 @@ object-fit: cover;
     display: flex;
     flex-direction: row;
     max-width: 490px;
+    margin-left: 40px;
     }
 
     .descr-item {
-        margin-left: 40px;
+       
     }
 
     .descr-item:not(:last-child)  {
         margin-right: 20px;
+        margin-bottom: 0px;
     }
 
     .descr-wrapper {
@@ -48,7 +50,7 @@ object-fit: cover;
     }
 
     .descr-item {
-      
+        
     }
     .picture-wrapper {
        
@@ -60,5 +62,18 @@ object-fit: cover;
     object-fit: cover;
     }
 
+    .descr-text {
+    
+    }
+
+    .descr-text-firstparagraph {
+        width: 220px;
+        height: 162px;
+    }
+
+    .descr-text-secondparagraph {
+        width: 250px;
+        height: 144px;
+    }
  }
  
