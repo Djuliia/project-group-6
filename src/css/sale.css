@@ -1,20 +1,8 @@
+/**---------------- Mobile ----------------*/
+
 .section-title {
   margin-bottom: 40px;
 }
-
-/* @media screen and (min-width: 375px) and (max-width: 767px) {
-  .container.sale-container {
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  .container.sale-container {
-    max-width: 100%;
-  }
-} */
 
 .sale-galary {
   display: flex;
@@ -52,4 +40,82 @@
 .sale-galary-pic {
   max-height: 350px;
   max-width: 235px;
+}
+
+.sale-selection {
+  max-width: 335px;
+}
+
+.sale-selection-name {
+  margin-bottom: 40px;
+}
+
+.sale-selection-descr {
+  margin-bottom: 40px;
+}
+
+.sale-selection-title {
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1px;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.sale-selection-text {
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--light-color);
+  margin-bottom: 16px;
+}
+
+.sale-selection-price {
+  position: relative;
+  font-family: 'Neue Montreal';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+.sale-selection-discount {
+  position: absolute;
+  top: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration-line: line-through;
+  color: var(--light-color);
+  margin-left: 8px;
+}
+
+.sale-descr-title,
+.sale-details-title {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--color-dark-theme);
+  margin-bottom: 17px;
+}
+
+.sale-descr-text {
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: var(--light-color);
+}
+
+.sale-details-text {
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: var(--light-color);
+}
+
+/**---------------- Tablet ----------------*/
+
+@media screen and (min-width: 768px) {
+  .container.sale-container {
+    max-width: 572px;
+  }
 }
