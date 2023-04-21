@@ -3,6 +3,16 @@
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .header_container {
+    justify-content: space-between;
+  }
+}
+
+
+
+
+
 .navigation {
   display: flex;
   align-items: center;
@@ -78,6 +88,9 @@
 }
 
 .button_burger {
+  fill: var(--color-light-theme);
+  background-color: transparent;
+  
   border: none;
 }
 
@@ -85,4 +98,9 @@
   .button_burger {
       display: none;
     }
+}
+
+.button_icon {
+  width: 24px;
+  height: 24px;
 }
