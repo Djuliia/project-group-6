@@ -3,9 +3,12 @@
     <div class="header_container">
       <nav class="navigation">
         <a class="logo" href="">
-          <svg class="logo_icon">
-            <use href="/img/sprite.svg#logo"></use>
-          </svg>
+          <object
+            class="logo_img"
+            data="/img/sprite.svg#logo"
+            width="14px"
+            height="14px"
+          ></object>
           <span class="logo_text">thewatchspot</span>
         </a>
         <ul class="navigaton_list">
@@ -21,7 +24,11 @@
         </ul>
       </nav>
       <address class="header_address">
-        <a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+        <button class="address_button">
+          <a class="address-link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
+        </button>
       </address>
     </div>
   </div>
