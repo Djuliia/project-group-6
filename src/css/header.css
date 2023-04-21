@@ -9,10 +9,6 @@
   }
 }
 
-
-
-
-
 .navigation {
   display: flex;
   align-items: center;
@@ -24,7 +20,7 @@
 }
 
 .logo_img {
-  color: var(--color-light-theme);
+  fill: var(--color-light-theme);
 }
 
 .logo_text {
