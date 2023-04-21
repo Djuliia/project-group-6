@@ -18,7 +18,8 @@
     letter-spacing: -0.02em;
     margin-bottom: 40px;
     text-transform: capitalize;
-}
+    color: var(--secondary-color);
+ }
 
 .novelty__list {
     display: flex;
