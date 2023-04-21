@@ -2,13 +2,19 @@
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .container {
-    max-width: 335px;
+/* @media screen and (min-width: 375px) and (max-width: 767px) {
+  .container.sale-container {
+    max-width: 375px;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .container.sale-container {
+    max-width: 100%;
+  }
+} */
 
 .sale-galary {
   display: flex;
@@ -45,4 +51,5 @@
 
 .sale-galary-pic {
   max-height: 350px;
+  max-width: 235px;
 }
