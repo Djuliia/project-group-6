@@ -9,6 +9,10 @@
   flex-wrap: wrap;
 }
 
+.footer-logo-svg {
+  fill:#ffffff;
+}
+
 .logo-link {
   display: block;
   margin-bottom: 40px;
