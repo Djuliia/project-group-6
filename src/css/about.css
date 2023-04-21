@@ -5,12 +5,13 @@
 }
 
 .descr-item:not(:last-child)  {
-    margin-bottom: 20px;
+
 }
 
 .descr {
-margin-top: 40px;
-max-width: 335px;
+display: flex;
+gap: 20px;
+flex-direction: column;
 }
 
 .watch-animation {
@@ -24,6 +25,16 @@ object-fit: cover;
     margin-top: 40px;
 }
 
+.descr-item {
+    width: 335px;
+    gap: 20px;
+}
+
+.descr-wrapper {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -31,8 +42,7 @@ object-fit: cover;
     margin-top: 0px;
     display: flex;
     flex-direction: row;
-    max-width: 490px;
-    margin-left: 40px;
+   
     }
 
     .descr-item {
@@ -40,13 +50,13 @@ object-fit: cover;
     }
 
     .descr-item:not(:last-child)  {
-        margin-right: 20px;
-        margin-bottom: 0px;
+       
     }
 
     .descr-wrapper {
         display: flex;
         flex-direction: row;
+       
     }
 
     .descr-item {
