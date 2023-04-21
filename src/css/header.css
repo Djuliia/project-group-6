@@ -100,3 +100,13 @@
   width: 24px;
   height: 24px;
 }
+
+.mobile-menu {
+  background-color: --secondary-color;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
