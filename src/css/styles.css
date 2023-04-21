@@ -22,12 +22,13 @@
   --secondary-color: #1E2827;
   --light-color: rgba(20, 20, 20, 0.5);
   --color-light-theme: #FFFFFF;
+  --transition: 250ms linear;
 }
 
 body {
   font-family: var(--font-family);
   font-size: 14px;
-  color: var(--primary-color-dark-theme);
+  color: var(color-dark-theme);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,7 +38,7 @@ body {
 }
 
 .container {
-  max-width: 335px;
+  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -51,7 +52,7 @@ body {
     padding-left: 32px;
     padding-right: 32px;
   }
-}
+}  
 
 @media screen and (min-width: 1280px) {
   .container {
