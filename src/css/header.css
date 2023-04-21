@@ -1,4 +1,4 @@
-.header_container {
+/* .header_container {
   background-color: var(--color-dark-theme);
   display: flex;
 }
@@ -102,11 +102,12 @@
 }
 
 .mobile-menu {
-  background-color: --secondary-color;
+  background-color: var(--secondary-color);
 }
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
-}
+} */
+
