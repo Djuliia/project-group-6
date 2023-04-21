@@ -1,15 +1,16 @@
 .descr-text {
     font-weight: 300;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: -0.02em;
 }
 
 .descr-item:not(:last-child)  {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .descr {
-padding-top: 40px;
+margin-top: 40px;
+max-width: 335px;
 }
 
 .watch-animation {
@@ -19,30 +20,29 @@ object-fit: cover;
 }
 
 .picture-wrapper {
-    padding-bottom: 80px;
-    padding-top: 40px;
+    
+    margin-top: 40px;
 }
 
 
 @media screen and (min-width: 768px) {
 
     .descr {
-    padding-top: 0px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     max-width: 490px;
     }
 
     .descr-item {
-        padding-left: 40px;
+        margin-left: 40px;
     }
 
     .descr-item:not(:last-child)  {
-        padding-right: 20px;
+        margin-right: 20px;
     }
 
     .descr-wrapper {
-        padding-top: 64px;
         display: flex;
         flex-direction: row;
     }
@@ -51,7 +51,7 @@ object-fit: cover;
       
     }
     .picture-wrapper {
-        padding-bottom: 128px;
+       
     }
 
     .watch-animation {
