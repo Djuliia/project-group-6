@@ -22,12 +22,13 @@
   --secondary-color: #1E2827;
   --light-color: rgba(20, 20, 20, 0.5);
   --color-light-theme: #FFFFFF;
+  --transition: 250ms linear;
 }
 
 body {
   font-family: var(--font-family);
   font-size: 14px;
-  color: var(--primary-color-dark-theme);
+  color: var(color-dark-theme);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
