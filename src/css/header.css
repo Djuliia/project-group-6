@@ -1,10 +1,17 @@
 .header_container {
-  background-color: var(--color-dark-theme);
+  /* position: absolute;
+  top: 0;
+  left: 50%; 
+  transform: translate(-50%, -50%); */
+}
+
+.header_navigation {
+  background-color: var(--color-dark-theme); /* delete */
   display: flex;
 }
 
 @media screen and (max-width: 767px) {
-  .header_container {
+  .header_navigation {
     justify-content: space-between;
   }
 }
@@ -76,6 +83,13 @@
   .header_address {
       display: flex;
       margin-left: auto;
+      background-color: var(--secondary-color);
+        font-size: 9px;
+        line-height: 1.33;
+        border: none;
+        border-radius: 8px;
+        text-align: center;
+        padding: 18px 35px 18px 35px;
     }
 }
 
