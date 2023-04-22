@@ -26,11 +26,11 @@
     line-height: 1.05;
     letter-spacing: -0.04em;
     color: var(--color-light-theme);
-    padding-top: 122px;
+    padding-top: 122px; /* тут падинг зайвий. тому що він вже є на класі section. Але потрібно його рідкорегувати на відповідний до розміру екрану padding-top */
 }
 
 .watch_deskr-wrapper {
-    padding-top: 60px;
+    padding-top: 60px; /* ми відштовхуємо елементи в секціях за допомогую margin. в группі ми погодились, що будемо використовувати margin-bottom */
 }
 
 .watch-swiper {
