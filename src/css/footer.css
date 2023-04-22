@@ -45,12 +45,14 @@
 .footer-menu-list {
   margin-left: auto;
   display: flex;
+  align-self: flex-start;
   flex-direction: column;
   gap: 14px;
 }
 
 .footer-soc-list {
   display: flex;
+  align-self: flex-start;
   gap: 14px;
   margin-bottom: 80px;
   width: 100%;
@@ -105,8 +107,8 @@
   }
   .footer-cont {
     flex-wrap: nowrap;
-    align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 152px;
   }
 
   .footer-logo-svg {
@@ -141,9 +143,12 @@
   .rights-list {
     flex-direction: row;
     justify-content: space-between;
-    font-size: 14px;
-    line-height: 129%;
   }
+
+.rights-text {
+  font-size: 14px;
+  line-height: 129%;
+}
 }
 
 /* * ========== DESCTOP ============*/
@@ -152,6 +157,11 @@
   .footer {
     padding: 104px 132px 32px;
   }
+
+  .footer-cont {
+    margin-bottom: 174px;
+  }
+
 }
 
  /*  ^_^  */
