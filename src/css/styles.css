@@ -22,12 +22,14 @@
   --secondary-color: #1E2827;
   --light-color: rgba(20, 20, 20, 0.5);
   --color-light-theme: #FFFFFF;
+  --bg-color-new-section: #FBFBFB;
+  --transition: 250ms linear;
 }
 
 body {
   font-family: var(--font-family);
   font-size: 14px;
-  color: var(--primary-color-dark-theme);
+  color: var(color-dark-theme);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,21 +39,25 @@ body {
 }
 
 .container {
-  max-width: 335px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+    
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
-}
+}  
 
 @media screen and (min-width: 1280px) {
   .container {
