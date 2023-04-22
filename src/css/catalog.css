@@ -1,7 +1,6 @@
 .title{
 	margin-bottom: 40px;
 
-	letter-spacing: -0.02em;
 	color: var(--secondary-color);
 }
 .title-card{
@@ -96,10 +95,6 @@
 	border: 1px solid var(--color-light-theme);
 }
 @media screen and (min-width: 768px){
-	.title{
-		font-size: 40px;
-		line-height: 1.10;
-	}
 	.catalog-list {
 		display: flex;
 		flex-wrap: wrap;
@@ -144,10 +139,6 @@
 	}
 }
 @media screen and (max-width: 767px){
-	.title{
-		font-size: 32px;
-		line-height: 1.25;
-	}
 	.btn-buy{
 		padding: 14px 28px;
 	}
