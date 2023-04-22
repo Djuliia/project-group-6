@@ -30,11 +30,6 @@
   padding: 0 8px;
 }
 
-/* .sale-galary-image {
-  max-height: 80px;
-  max-width: 80px;
-} */
-
 .sale-galary-pic {
   max-height: 350px;
   max-width: 235px;
@@ -130,11 +125,6 @@
     min-width: 146px;
     padding: 0 12px;
   }
-
-  /* .sale-galary-image {
-    max-height: 100%;
-    max-width: 100%;
-  } */
 
   .sale-galary-pic {
     max-height: 614px;
