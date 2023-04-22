@@ -1,16 +1,15 @@
+/* * ================MOBILE================ */
+
 .footer {
   background-color: var(--secondary-color);
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding: 40px 20px 20px;
+  min-width: 100%;
 }
 
 .footer-cont {
   display: flex;
+  align-items: baseline;
   flex-wrap: wrap;
-}
-
-.footer-logo-svg {
-  fill:#ffffff;
 }
 
 .logo-link {
@@ -18,7 +17,12 @@
   margin-bottom: 40px;
 }
 
-.footer-menu-text {
+.footer-logo-svg {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-menu-link {
   line-height: 129%;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -39,7 +43,7 @@
 }
 
 .footer-menu-list {
-  margin-left: 136px;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -49,19 +53,22 @@
   display: flex;
   gap: 14px;
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .footer-soc-item {
   gap: 8px;
   isolation: isolate;
-
   width: 40px;
   height: 40px;
-
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
 
+.footer-soc-svg {
+  width: 24px;
+  height: 24px;
+}
 .footer-soc-link {
   fill: var(--color-light-theme);
   display: flex;
@@ -89,3 +96,62 @@
   display: flex;
   gap: 14px;
 }
+
+/* * ===============TABLET=========== */
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 80px 32px 20px;
+  }
+  .footer-cont {
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .footer-logo-svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-addres-link {
+    font-size: 18px;
+    line-height: 133%;
+  }
+  .footer-menu-list {
+    margin: 0;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+  }
+  .footer-soc-list {
+    width: auto;
+  }
+
+  .footer-soc-item {
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer-soc-svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .rights-list {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 129%;
+  }
+}
+
+/* * ========== DESCTOP ============*/
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 104px 132px 32px;
+  }
+}
+
+ /*  ^_^  */
