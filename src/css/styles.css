@@ -26,7 +26,7 @@
 body {
   font-family: var(--font-family);
   font-size: 14px;
-  color: var(--color-dark-theme);
+  color: var(--primary-color-dark-theme);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -36,68 +36,64 @@ body {
 }
 
 .container {
-  max-width: 375px;
+  max-width: 335px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-}
 
-@media screen and (min-width: 768px) {
-  .container {
+  @media screen and (min-width: 768px) {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
-}
 
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
   }
-}
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 
-.section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-@media screen and (min-width: 768px) {
   .section {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
-}
 
-@media screen and (min-width: 1280px) {
-  .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  @media screen and (min-width: 768px) {
+    .section {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
   }
-}
 
-.section-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-}
+  @media screen and (min-width: 1280px) {
+    .section {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  }
 
-@media screen and (min-width: 768px) {
   .section-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  @media screen and (min-width: 768px) {
     font-size: 40px;
     line-height: 1.1;
   }
