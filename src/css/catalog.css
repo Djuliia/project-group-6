@@ -5,7 +5,6 @@
 	color: var(--secondary-color);
 }
 .title-card{
-	margin-top: 14px;
 	margin-bottom: 4px;
 
 	text-overflow: ellipsis;
@@ -48,12 +47,9 @@
 
 	transform: rotateY(-180deg);
 	transition: transform var(--transition);
-
-	overflow-y: auto;
-	overflow-x: hidden;
 }
 .thumb-overlay>pre{
-	margin-bottom: 0;
+	margin: 0;
 }
 .overlay-title{
 	margin-bottom: 10px;
@@ -64,9 +60,7 @@
 	color: var(--color-light-theme);
 }
 .overlay-text{
-	margin-bottom: 14px;
-
-	max-width: 200px;
+	max-width: 214px;
 	letter-spacing: -0.01em;
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -74,7 +68,7 @@
 	transform: rotateY(-180deg);
 }
 .catalog-info{
-	margin-top: 14px;
+	padding-top: 14px;
 }
 .thumb-overlay.is-hidden{
 	opacity: 0;
@@ -115,6 +109,9 @@
 		flex-basis: calc((100% - 32px) / 2);
 		min-width: 330px;
 	}
+	.thumb-overlay>p{
+		margin-bottom: 16px;
+	}
 	.btn-buy{
 		padding: 18px 35px;
 	}
@@ -142,6 +139,9 @@
 	.thumb-overlay{
 		padding: 20px;
 	}
+	.thumb-overlay>p{
+		margin-bottom: 20px;
+	}
 }
 @media screen and (max-width: 767px){
 	.title{
@@ -153,6 +153,9 @@
 	}
 	.catalog-icon{
 		display: none;
+	}
+	.thumb-overlay>p{
+		margin-bottom: 14px;
 	}
 }
 @media screen and (max-width: 1279px){
