@@ -1,9 +1,4 @@
-.header_container {
-  /* position: absolute;
-  top: 0;
-  left: 50%; 
-  transform: translate(-50%, -50%); */
-}
+.header_container {}
 
 .header_navigation {
   background-color: var(--color-dark-theme); /* delete */
@@ -30,6 +25,7 @@
 .logo_img {
   width: 14px;
   height: 14px;
+  margin-right: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -75,6 +71,10 @@
   text-transform: uppercase;
 }
 
+.navigation_links {
+  
+}
+
 .header_address {
   display: none;
 }
@@ -93,7 +93,7 @@
     }
 }
 
-.address_button {
+.header_address {
   background-color: var(--secondary-color);
   font-size: 9px;
   line-height: 1.33;
