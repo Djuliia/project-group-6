@@ -20,17 +20,9 @@
     margin-top: 40px;
 }
 
-.desk-enable {
-    display: none;
-}
-
-.desk-disable {
-    display: block;
-}
 
 .descr-item {
-    width: 335px;
-    gap: 20px;
+    max-width: 335px;
 }
 
 .descr-wrapper {
@@ -106,5 +98,9 @@
 
     .descr-wrapper {
         gap: 110px;
+    }
+
+    .watch-picture {
+        margin-left: auto;
     }
 }
