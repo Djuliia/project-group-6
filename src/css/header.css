@@ -31,7 +31,7 @@
 
 .logo:hover,
 .logo:active {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: var(--transition);
 }
 
@@ -54,7 +54,7 @@
 
 .navigation_items:hover,
 .navigation_items:active {
-  transform: scale(1.2);
+  transform: scale(1.3);
   transition: var(--transition);
 }
 
@@ -67,6 +67,13 @@
 
 .header_address {
   display: none;
+}
+
+.header_address:hover,
+.header_address:active {
+  border: 1px solid var(--color-light-theme);
+    transition: border var(--transition);
+    transform: scale(1.1);
 }
 
 .address-link {
