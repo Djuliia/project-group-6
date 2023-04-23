@@ -22,15 +22,16 @@
   --secondary-color: #1E2827;
   --light-color: rgba(20, 20, 20, 0.5);
   --color-light-theme: #FFFFFF;
-  --bg-color-new-section: #FBFBFB;
   --pale-color:#C6CDD1;
   --transition: 250ms linear;
+  --bg-color: #FBFBFB;
 }
 
 body {
   font-family: var(--font-family);
   font-size: 14px;
   color: var(color-dark-theme);
+  background-color: var(--bg-color); 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -48,13 +49,13 @@ body {
 
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 375px;
+    width: 375px;
   }
 }
     
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -62,7 +63,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    width: 1240px;
   }
 }
 
@@ -104,7 +105,7 @@ body {
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-
+  color: var(--secondary-color);
 }
 
 @media screen and (min-width: 768px) {
