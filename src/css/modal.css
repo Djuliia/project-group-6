@@ -40,9 +40,9 @@ left: 50%;
 }
 .modal-item-image {
     margin-bottom: 14px;
+    padding: 25px 0;
 }
 .modal-item {
-    margin-top: 8px;
     max-width: 276px;
 }
 .modal-item-name {
@@ -50,6 +50,9 @@ left: 50%;
 line-height: 1.29;
 letter-spacing: -0.02em;
 margin-bottom: 4px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 }
 .modal-item-price {
     font-size: 12px;
@@ -123,7 +126,7 @@ color: rgba(20, 20, 20, 0.5);
     max-width: 368px;
     width: 100%;
     height: 50px;
-    background: #1E2827;
+    background: var(--secondary-color);
 border-radius: 8px;
 border: none;
 font-size: 12px;
@@ -150,6 +153,10 @@ color: rgba(20, 20, 20, 0.4);
 .modal-input-label {
     font-size: 14px;
 line-height: 1.29;
+}
+.modal-input::placeholder {
+    font-size: 16px;
+line-height: 1.12;
 }
 .modal-form,
 .modal-submit {
