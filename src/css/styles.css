@@ -48,13 +48,13 @@ body {
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
+    width: 335px;
   }
 }
     
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 704px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -62,7 +62,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    width: 1176px;
   }
 }
 
@@ -104,7 +104,7 @@ body {
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-
+  color: var(--secondary-color);
 }
 
 @media screen and (min-width: 768px) {
