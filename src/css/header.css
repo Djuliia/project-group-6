@@ -1,5 +1,5 @@
 .section__header {
-  background-color: darkgray;
+  /* background-color: darkgray; */
     position: absolute;
     top: 29px;
     right: 0px;
@@ -51,11 +51,6 @@
   font-size: 9px;
   line-height: 1.33;
   text-transform: uppercase;
-}
-
-.navigation_links:hover,
-.navigation_links:active {
-  
 }
 
 .header_address {
@@ -193,15 +188,9 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .section__header {
-    max-width: 1440px;
-  right: 0;
-    left: 0;
+  right: 50px;
+  left: 50px;
 }
-
-/* .container__header {
-right: 0;
-left: 0;
 } */
-}
