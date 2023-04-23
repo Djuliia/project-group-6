@@ -34,7 +34,6 @@
 @media screen and (min-width: 768px) {
 
     .descr {
-        margin-top: 0px;
         display: flex;
         flex-direction: row;
     }
@@ -52,15 +51,12 @@
 
     .descr-text-firstparagraph {
         width: 220px;
-        height: 162px;
     }
 
     .descr-text-secondparagraph {
         width: 250px;
-        height: 144px;
     }
 }
-
 
 
 @media screen and (min-width: 1280px) {
@@ -71,7 +67,6 @@
     }
 
     .picture-wrapper {
-        min-width: 892px;
         margin-top: 40px;
         margin-left: 284px;
     }
@@ -88,12 +83,10 @@
 
     .descr-text-firstparagraph {
         width: 439px;
-        height: 90px;
     }
 
     .descr-text-secondparagraph {
         width: 380px;
-        height: 90px;
     }
 
     .descr-wrapper {
