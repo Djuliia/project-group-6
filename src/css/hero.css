@@ -66,12 +66,12 @@
 
 .swiper-button-prev:after {
     left: 0;
-    opacity: hidden;
+    
 }
 
 .swiper-button-next:after {
     left: 44px;
-    opacity: hidden;
+    
 }
 
 .carousel__number-of-watches {
@@ -79,7 +79,7 @@
     letter-spacing: -0.02em;
     color: var(--color-light-theme);
     text-align: end;
-    margin-right: 69px;
+    margin-right: 32px;
     margin-top: 34px;
     display: flex;
     align-items: center;
@@ -117,9 +117,9 @@
 
     .watch_deskr-wrapper {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         align-items: center;
-        gap: 0 20px;
+        /* gap: 0 20px; */
     }
 
     .watch-swiper {
@@ -156,18 +156,19 @@
         margin: 0;
         position: absolute;
         top: 357px;
-        right: 268px;
+        right: 280px;
     }
 
     .hero__dskr {
         padding: 0;
-        max-width: 248px;
+        min-width: 248px;
         order: -1;
+        margin-left: 20px;
     }
 
     .hero__img {
-        min-width: 704px;
-        padding: 40px 0 64px;
+        width: 704px;
+        padding: 100px 0 64px;
     }
 }
 
