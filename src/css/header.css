@@ -1,7 +1,6 @@
-.header_container {}
-
 .header_navigation {
-  background-color: var(--color-dark-theme); /* delete */
+  background-color: var(--color-dark-theme);
+  /* delete */
   display: flex;
 }
 
