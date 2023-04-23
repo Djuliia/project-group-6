@@ -80,7 +80,8 @@
 
     .picture-wrapper {
         min-width: 892px;
-        margin-top: 0px;
+        margin-top: 40px;
+        margin-left: 284px;
     }
 
     .descr-item {
@@ -101,14 +102,6 @@
     .descr-text-secondparagraph {
         width: 380px;
         height: 90px;
-    }
-
-    .desk-enable {
-        display: block;
-    }
-
-    .desk-disable {
-        display: none;
     }
 
     .descr-wrapper {
