@@ -77,7 +77,7 @@
     }
 
     .descr-item {
-        flex-basis: 47%;
+      max-width: 439px;
     }
 
     .descr {
@@ -97,7 +97,8 @@
     }
 
     .descr-wrapper {
-        gap: 110px;
+        margin-right: 33px;
+        justify-content:space-between;
     }
 
     .watch-picture {
