@@ -30,6 +30,7 @@ padding: 40px 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 gap: 40px;
 overflow: auto;
 transition: transform var(--transition);
@@ -43,6 +44,7 @@ left: 50%;
     padding: 25px 0;
 }
 .modal-item {
+    width: 100%;
     max-width: 276px;
 }
 .modal-item-name {
