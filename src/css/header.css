@@ -29,6 +29,12 @@
   align-items: center;
 }
 
+.logo:hover,
+.logo:active {
+  transform: scale(1.2);
+  transition: var(--transition);
+}
+
 .logo_img {
   width: 14px;
   height: 14px;
@@ -44,6 +50,12 @@
 
 .navigation_list {
   display: none;
+}
+
+.navigation_items:hover,
+.navigation_items:active {
+  transform: scale(1.2);
+  transition: var(--transition);
 }
 
 .navigation_links {
@@ -121,6 +133,12 @@
   flex-direction: column;
   align-items: center;
   gap: 14px;
+}
+
+.mobile-navigation_items:hover,
+.mobile-navigation_items:active {
+  transform: scale(1.2);
+  transition: var(--transition);
 }
 
 .mobile-navigation_links {
