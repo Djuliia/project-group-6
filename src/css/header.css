@@ -1,6 +1,13 @@
-.header_navigation {
+.section__header {
   background-color: var(--color-dark-theme);
-  /* delete color */
+    /* delete color */
+    position: absolute;
+    top: 29px;
+    left: 20px;
+    right: 20px;
+}
+
+.header_navigation {
   display: flex;
   justify-content: space-between;
 }
