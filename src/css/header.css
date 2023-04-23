@@ -47,6 +47,10 @@
   text-transform: uppercase;
 }
 
+.navigation_links:hover,
+.navigation_links:active {
+}
+
 .header_address {
   display: none;
 }
