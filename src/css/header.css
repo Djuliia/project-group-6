@@ -123,12 +123,6 @@
   gap: 14px;
 }
 
-.mobile-navigation_list:hover,
-.mobile-navigation_list:active {
-  font-size: 15px;
-  transform: font-size var(--transition);
-}
-
 .mobile-navigation_links {
   color: var(--color-light-theme);
   font-size: 14px;
