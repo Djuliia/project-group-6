@@ -26,15 +26,16 @@
     line-height: 1.05;
     letter-spacing: -0.04em;
     color: var(--color-light-theme);
-    padding-top: 122px; /* тут падинг зайвий. тому що він вже є на класі section. Але потрібно його рідкорегувати на відповідний до розміру екрану padding-top */
+    padding-top: 122px; 
 }
 
 .watch_deskr-wrapper {
-    padding-top: 60px; /* ми відштовхуємо елементи в секціях за допомогую margin. в группі ми погодились, що будемо використовувати margin-bottom */
+    padding-top: 60px;
+    position: relative;
 }
 
 .watch-swiper {
-    width: 266px;
+    max-width: 266px;
     height: 200px;
     margin-left: 0;
     background-color: var(--secondary-color);
@@ -52,7 +53,7 @@
     color: var(--color-light-theme);
     font-size: 9px;
     position: absolute;
-    top: 522px;
+    top: 280px;
     left: 0;
     width: 32px;
     height: 32px;
@@ -64,12 +65,12 @@
 }
 
 .swiper-button-prev:after {
-    left: 20px;
+    left: 0;
     opacity: hidden;
 }
 
 .swiper-button-next:after {
-    left: 64px;
+    left: 44px;
     opacity: hidden;
 }
 
@@ -98,7 +99,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: var(--color-light-theme);
-    padding: 49px 0 40px 87px;
+    padding: 40px 0 40px 87px;
 }
 
 .hero__img {
@@ -122,7 +123,7 @@
     }
 
     .watch-swiper {
-        width: 436px;
+        max-width: 436px;
         height: 255px;
         order: -1;
     }
@@ -136,17 +137,17 @@
     .swiper-button-prev:after {
         width: 40px;
         height: 40px;
-        top: 669px;
+        top: 335px;
     }
 
     .swiper-button-prev:after {
-        left: 32px;
+        left: 0;
         font-size: 12px;
         text-align: center;
     }
 
     .swiper-button-next:after {
-        left: 84px;
+        left: 52px;
         font-size: 12px;
         text-align: center;
     }
@@ -154,8 +155,8 @@
     .carousel__number-of-watches {
         margin: 0;
         position: absolute;
-        top: 691px;
-        right: 300px;
+        top: 357px;
+        right: 268px;
     }
 
     .hero__dskr {
@@ -197,17 +198,19 @@
     }
 
     .swiper-button-prev:after {
-        left: 132px;
+        top: 397px;
+        left: 100px;
     }
 
     .swiper-button-next:after {
-        left: 184px;
+        top: 397px;
+        left: 152px;
     }
 
     .carousel__number-of-watches {
         right: unset;
-        left: 486px;
-        bottom: 80px;
+        left: 454px;
+        top: 419px;
     }
 
     .hero__img {
