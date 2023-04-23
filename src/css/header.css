@@ -1,6 +1,5 @@
 .section__header {
-  background-color: var(--color-dark-theme);
-    /* delete color */
+    z-index: 100;
     position: absolute;
     top: 29px;
     left: 20px;
