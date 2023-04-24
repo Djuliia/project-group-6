@@ -95,7 +95,8 @@ margin-bottom: 12px;
 border-radius: 8px;
 padding: 12px 16px;
 margin-bottom: 18px;
-transition: outline-color var(--transition);
+outline: transparent;
+transition: border-color var(--transition);
 }
 .modal-textarea {
     width: 100%;
@@ -104,14 +105,18 @@ transition: outline-color var(--transition);
 border-radius: 8px;
 padding: 12px 16px;
 resize: none;
+outline: transparent;
 margin-bottom: 20px;
-transition: outline-color var(--transition), outline var(--transition);
+transition: border-color var(--transition), outline var(--transition);
 }
-
+.modal-input:focus,
+.modal-textarea:focus {
+    border-color: var(--color-dark-theme); 
+}
 #user-name:invalid,
 #user-email:invalid,
 #card-number:invalid {
-    outline-color: red;
+    border-color: red;
 }
 .modal-input::placeholder {
     font-size: 14px;
