@@ -135,6 +135,12 @@
 	.thumb-overlay>p{
 		margin-bottom: 20px;
 	}
+	.catalog-title{
+		margin-bottom: 64px;
+	}
+	.thumb-image{
+		padding: 26px 0 25px;
+	}
 }
 @media screen and (max-width: 767px){
 	.btn-buy{
