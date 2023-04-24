@@ -7,11 +7,16 @@ const swiper = new Swiper(".watch-swiper", {
   // spaceBetween: 5,
 
   speed: 800,
-  
-    keyboard: {
+
+  keyboard: {
     enabled: true,
     onlyInViewport: true,
     pageUpDown: true,
   },
-    
-   });
+  on: {
+    slideChange() {
+      this.el.parentNode.querySelector(".carousel__number-of-watches").innerHTML = this.realIndex + 1 + '<span class="dash"></span>' + this.slides.length;
+    }
+  }
+
+});
