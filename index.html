@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/project-group-6/assets/index-c632e1ee.js"></script>
-    <link rel="stylesheet" href="/project-group-6/assets/index-ed9fecd2.css">
+    <link rel="stylesheet" href="/project-group-6/assets/index-0d7961d4.css">
   </head>
   <body>
     <header class="section__header">
@@ -25,9 +25,6 @@
     <div class="header_navigation">
       <nav class="navigation">
         <a class="logo" href="index.html">
-<!--           <svg width="14" height="14" class="logo_img">
-            <use href="./img/sprite.svg#logo"></use>
-        </svg> -->
           <object class="logo_img" data="./img/logo.svg"></object>
           <span class="logo_text">thewatchspot</span>
           
@@ -47,13 +44,14 @@
       <address class="header_address">
         <a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
       </address>
-      <button class="button_burger js-open-menu" type="button">
+      <button class="button_burger js-open-menu" type="button" aria-expanded="false"
+      aria-controls="mobile-menu">
         <svg class="button_icon">
           <use href="/project-group-6/assets/sprite-cf2b4134.svg#burger"></use>
         </svg>
       </button>
     </div>
-    <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
       <div>
         <a class="logo logo_menu" href="./index.html">
           <object class="logo_img" data="/img/logo.svg"></object>
@@ -740,7 +738,7 @@ Band Colour: Steel
     <div class="footer-flex-cont">
       <div class="footer-cont">
         <div class="footer-logo-block">
-          <a href="./index.html" class="logo-link">
+          <a href="index.html" class="logo-link">
             <object class="footer-logo-svg" data="./img/logo.svg"></object>
           </a>
 
