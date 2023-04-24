@@ -1,4 +1,4 @@
-/---------------- Mobile ----------------*/
+/*---------------- Mobile ----------------*/
 
 .sale-galary {
   display: flex;
@@ -144,7 +144,7 @@
   color: var(--light-color);
 }
 
-/---------------- Tablet ----------------*/
+/*---------------- Tablet ----------------*/
 
 
 @media screen and (min-width: 768px) {
@@ -185,7 +185,7 @@
   }
 }
 
-/**---------------- Desktop ----------------*/
+/*---------------- Desktop ----------------*/
 
 @media screen and (min-width: 1280px) {
   .section-title {
