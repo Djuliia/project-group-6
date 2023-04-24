@@ -1,4 +1,4 @@
-/**---------------- Mobile ----------------*/
+/---------------- Mobile ----------------*/
 
 .sale-galary {
   display: flex;
@@ -83,7 +83,6 @@
 
 .sale-details-title::after {
   position: absolute;
-  position: absolute;
   right: 0;
   top: 20px;
   display: block;
@@ -145,7 +144,8 @@
   color: var(--light-color);
 }
 
-/**---------------- Tablet ----------------*/
+/---------------- Tablet ----------------*/
+
 
 @media screen and (min-width: 768px) {
   .sale-galary,
