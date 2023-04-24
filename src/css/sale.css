@@ -1,13 +1,18 @@
 /**---------------- Mobile ----------------*/
 
-.section-title {
+.sale-galary {
+  display: flex;
   margin-bottom: 40px;
 }
 
-.sale-galary {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+@media screen and (max-width: 767px) {
+  .sale-galary {
+    justify-content: center;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
 }
 
 .sale-galary img {
@@ -16,8 +21,6 @@
 
 .sale-galary-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   margin-right: 20px;
   gap: 10px;
@@ -32,10 +35,6 @@
 .sale-galary-pic {
   max-height: 350px;
   max-width: 235px;
-}
-
-.sale-selection {
-  margin-top: 40px;
 }
 
 .sale-selection-name {
@@ -106,7 +105,6 @@
 .sale-selection-price {
   position: relative;
   font-family: 'Neue Montreal';
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -152,6 +150,10 @@
 /**---------------- Tablet ----------------*/
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* .section.sale {
+    padding-bottom: 128px;
+  } */
+
   .sale-galary,
   .sale-selection {
     max-width: 636px;
@@ -159,6 +161,10 @@
     padding-right: 32px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
   }
 
   .sale-galary-item .current {
@@ -177,10 +183,6 @@
     line-height: 1.05;
   }
 
-  .sale-selection-details {
-    margin-bottom: 128px;
-  }
-
   .sale-descr-title::after {
     left: 556px;
     content: '';
@@ -195,36 +197,34 @@
 /**---------------- Desktop ----------------*/
 
 @media screen and (min-width: 1280px) {
+  /* .section.sale {
+    padding-bottom: 160px;
+  } */
+
+  .section-title {
+    margin-right: 13px;
+  }
+
   .container.sale-container {
-    max-width: 1290px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1142px;
   }
 
   .sale-galary {
     margin-top: 124px;
     margin-right: 40px;
-  }
-
-  .section-title {
-    margin-bottom: 80px;
+    margin-bottom: 0;
   }
 
   .sale-descr-title::after {
-    left: 353px;
-    content: '';
+    left: 327px;
   }
 
   .sale-details-title::after {
-    left: 353px;
-    content: '';
+    left: 327px;
   }
 
   .sale-container {
     display: flex;
-    align-items: start;
   }
 
   .sale-galary-item .current {
@@ -255,9 +255,5 @@
 
   .sale-selection-descr {
     margin-bottom: 20px;
-  }
-
-  .sale-selection-details {
-    margin-bottom: 160px;
   }
 }
