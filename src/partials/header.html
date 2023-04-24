@@ -1,14 +1,15 @@
+<!-- A -->
 <header class="section__header">
   <div class="container container__header">
     <div class="header_navigation">
       <nav class="navigation">
-        <a class="logo" href="/index.html">
-          <object class="logo_img" data="./img/logo.svg"></object>
+        <a class="logo" href="index.html">
+          <object class="logo_img" data="../img/logo.svg"></object>
           <span class="logo_text">thewatchspot</span>
         </a>
         <ul class="navigation_list">
           <li class="navigation_items">
-            <a class="navigation_links" href="#aboutus">About us</a>
+            <a class="navigation_links" href="#about">About us</a>
           </li>
           <li class="navigation_items">
             <a class="navigation_links" href="#catalog">Catalog</a>
@@ -21,16 +22,21 @@
       <address class="header_address">
         <a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
       </address>
-      <button class="button_burger js-open-menu" type="button">
+      <button
+        class="button_burger js-open-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
         <svg class="button_icon">
           <use href="./img/sprite.svg#burger"></use>
         </svg>
       </button>
     </div>
-    <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
       <div>
         <a class="logo logo_menu" href="../index.html">
-          <object class="logo_img" data="./img/logo.svg"></object>
+          <object class="logo_img" data="/img/logo.svg"></object>
           <span class="logo_text">thewatchspot</span>
         </a>
         <button class="close-button js-close-menu">
@@ -43,7 +49,7 @@
         <nav class="mobile-navigation">
           <ul class="mobile-navigation_list">
             <li class="mobile-navigation_items">
-              <a class="mobile-navigation_links" href="#aboutus">About us</a>
+              <a class="mobile-navigation_links" href="#about">About us</a>
             </li>
             <li class="mobile-navigation_items">
               <a class="mobile-navigation_links" href="#catalog">Catalog</a>
@@ -56,12 +62,4 @@
       </div>
     </div>
   </div>
-
-  <script
-    defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"
-  ></script>
-  <script defer src="./js/mobile-menu.js"></script>
 </header>

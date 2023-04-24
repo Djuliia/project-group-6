@@ -105,10 +105,12 @@
     transform: translateX(100%);
     z-index: 100;
     transition: transform var(--transition);
+    pointer-events: none;
 }
 
 .mobile-menu.is-open {
   transform: translateX(0);
+  pointer-events: all;
 }
 
 .close-button {
