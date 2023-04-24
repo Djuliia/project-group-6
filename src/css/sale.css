@@ -1,0 +1,260 @@
+/**---------------- Mobile ----------------*/
+
+.sale-galary {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .sale-galary {
+
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+.sale-galary img {
+  background-color: var(--color-dark-theme);
+}
+
+.sale-galary-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  gap: 10px;
+  flex-basis: calc((100% - 30px) / 4);
+}
+
+.sale-galary-item .current {
+  max-height: 80px;
+  min-width: 80px;
+}
+
+.sale-galary-pic {
+  max-height: 350px;
+  max-width: 235px;
+}
+
+.sale-selection-name {
+  margin-bottom: 40px;
+}
+
+.sale-selection-descr {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sale-selection-title {
+  height: auto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.sale-descr-title::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-dark-theme);
+  margin-bottom: 8px;
+}
+
+.sale-descr-title::after {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: block;
+  content: '';
+  width: 16px;
+  height: 1px;
+  background-color: var(--color-dark-theme);
+}
+
+.sale-details-title::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-dark-theme);
+  margin-bottom: 8px;
+}
+
+.sale-details-title::after {
+  position: absolute;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: block;
+  content: '';
+  width: 16px;
+  height: 1px;
+  background-color: var(--color-dark-theme);
+}
+
+.sale-selection-text {
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--light-color);
+  margin-bottom: 16px;
+}
+
+.sale-selection-price {
+  position: relative;
+  font-family: 'Neue Montreal';
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+.sale-selection-discount {
+  position: absolute;
+  top: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration-line: line-through;
+  color: var(--light-color);
+  margin-left: 8px;
+}
+
+.sale-descr-title,
+.sale-details-title {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--color-dark-theme);
+  margin-bottom: 17px;
+}
+
+.sale-descr-text {
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: var(--light-color);
+}
+
+.sale-selection-details {
+  position: relative;
+}
+
+.sale-details-text {
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: var(--light-color);
+}
+
+/**---------------- Tablet ----------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* .section.sale {
+    padding-bottom: 128px;
+  } */
+
+  .sale-galary,
+  .sale-selection {
+    max-width: 636px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+
+  .sale-galary-item .current {
+    max-height: 146px;
+    min-width: 146px;
+    padding: 0 12px;
+  }
+
+  .sale-galary-pic {
+    max-height: 614px;
+    max-width: 406px;
+  }
+
+  .sale-selection-title {
+    font-size: 38px;
+    line-height: 1.05;
+  }
+
+  .sale-descr-title::after {
+    left: 556px;
+    content: '';
+  }
+
+  .sale-details-title::after {
+    left: 556px;
+    content: '';
+  }
+}
+
+/**---------------- Desktop ----------------*/
+
+@media screen and (min-width: 1280px) {
+  /* .section.sale {
+    padding-bottom: 160px;
+  } */
+
+  .section-title {
+    margin-right: 13px;
+  }
+
+  .container.sale-container {
+    width: 1142px;
+  }
+
+  .sale-galary {
+    margin-top: 124px;
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  .sale-descr-title::after {
+    left: 327px;
+  }
+
+  .sale-details-title::after {
+    left: 327px;
+  }
+
+  .sale-container {
+    display: flex;
+  }
+
+  .sale-galary-item .current {
+    max-height: 146px;
+    min-width: 146px;
+    padding: 0 12px;
+  }
+
+  .sale-galary-image {
+    max-height: 146px;
+    max-width: 146px;
+  }
+
+  .sale-galary-pic {
+    max-height: 614px;
+    max-width: 406px;
+  }
+
+  .sale-selection-title {
+    font-size: 38px;
+    line-height: 1.05;
+  }
+
+  .sale-selection {
+    max-width: 369px;
+    margin-top: 124px;
+  }
+
+  .sale-selection-descr {
+    margin-bottom: 20px;
+  }
+}
