@@ -34,7 +34,7 @@
 
 @font-face {
     font-family: 'Neue Monteral';
-    font-weight: 00;
+    font-weight: 400;
     src: url('../fonts/NeueMontreal-Regular.woff2') format('woff2'),
         /* Chrome 36+, Opera 23+, Firefox 39+ */
         url('../fonts/NeueMontreal-Regular.woff') format('woff');
