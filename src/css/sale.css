@@ -1,4 +1,4 @@
-/*---------------- Mobile ----------------*/
+/**---------------- Mobile ----------------*/
 
 .sale-galary {
   display: flex;
@@ -6,6 +6,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .sale-galary {
+    justify-content: center;
+  }
+
   .section-title {
     margin-bottom: 40px;
   }
@@ -20,18 +24,18 @@
   flex-direction: column;
   margin-right: 20px;
   gap: 10px;
-}
-
-.sale-galary-item {
   flex-basis: calc((100% - 30px) / 4);
 }
 
 .sale-galary-item .current {
   max-height: 80px;
   min-width: 80px;
+  padding: 0 8px;
 }
+
 .sale-galary-pic {
   max-height: 350px;
+  max-width: 235px;
 }
 
 .sale-selection-name {
@@ -83,7 +87,8 @@
 
 .sale-details-title::after {
   position: absolute;
-  right: 0;
+position: absolute;
+right: 0;
   top: 20px;
   display: block;
   content: '';
@@ -144,10 +149,13 @@
   color: var(--light-color);
 }
 
-/*---------------- Tablet ----------------*/
+/**---------------- Tablet ----------------*/
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* .section.sale {
+    padding-bottom: 128px;
+  } */
 
-@media screen and (min-width: 768px) {
   .sale-galary,
   .sale-selection {
     max-width: 636px;
@@ -169,6 +177,7 @@
 
   .sale-galary-pic {
     max-height: 614px;
+    max-width: 406px;
   }
 
   .sale-selection-title {
@@ -178,19 +187,24 @@
 
   .sale-descr-title::after {
     left: 556px;
+    content: '';
   }
 
   .sale-details-title::after {
     left: 556px;
+    content: '';
   }
 }
 
-/*---------------- Desktop ----------------*/
+/**---------------- Desktop ----------------*/
 
 @media screen and (min-width: 1280px) {
+  /* .section.sale {
+    padding-bottom: 160px;
+  } */
+
   .section-title {
     margin-right: 13px;
-    margin-bottom: 0;
   }
 
   .container.sale-container {
@@ -201,16 +215,14 @@
     margin-top: 124px;
     margin-right: 40px;
     margin-bottom: 0;
-    margin-left: 0;
-    padding: 0;
   }
 
   .sale-descr-title::after {
-    left: 353px;
+    left: 327px;
   }
 
   .sale-details-title::after {
-    left: 353px;
+    left: 327px;
   }
 
   .sale-container {
@@ -220,7 +232,17 @@
   .sale-galary-item .current {
     max-height: 146px;
     min-width: 146px;
-    padding: 0 12px;
+    padding: 0 22px;
+  }
+
+  .sale-galary-image {
+    max-height: 146px;
+    max-width: 146px;
+  }
+
+  .sale-galary-pic {
+    max-height: 614px;
+    max-width: 406px;
   }
 
   .sale-selection-title {
@@ -231,7 +253,6 @@
   .sale-selection {
     max-width: 369px;
     margin-top: 124px;
-    padding: 0;
   }
 
   .sale-selection-descr {
