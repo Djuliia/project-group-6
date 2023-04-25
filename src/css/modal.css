@@ -195,7 +195,7 @@ transition: border-color var(--transition), outline var(--transition);
 }
 .modal-submit:is(:hover, :focus) {
     border: 1px solid var(--color-light-theme);
-  
+}
 .modal-close:is(:hover, :focus) .close-icon {
     transform: scale(1.2);
 }
