@@ -71,8 +71,6 @@ transition: transform var(--transition);
 
 .header_address {
   display: none;
-  border: 1px solid transparent;
-  transition: border var(--transition);
 }
 
 .header_address:hover,
@@ -208,6 +206,8 @@ transition: transform var(--transition);
     border-radius: 8px;
     text-align: center;
     padding: 18px 35px 18px 35px;
+    border: 1px solid transparent;
+    transition: border var(--transition);
   }
 
   .button_burger {
