@@ -71,13 +71,14 @@ transition: transform var(--transition);
 
 .header_address {
   display: none;
-  border: transparent;
+  border: 1px solid transparent;
   transition: border var(--transition);
 }
 
 .header_address:hover,
 .header_address:focus {
   border: 1px solid var(--color-light-theme);
+  cursor: pointer;
 }
 
 .address-link {
