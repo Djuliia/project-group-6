@@ -3,7 +3,7 @@
  */
 function scrollToSection() {
     function smoothScroll(targetEl, duration) {
-        const offset = 20;
+        const offset = 40;
         let target = document.querySelector(targetEl);
         let targetPosition = target.getBoundingClientRect().top - offset;
         let startPosition = window.pageYOffset;
