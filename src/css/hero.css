@@ -193,7 +193,7 @@
 
     .hero__dskr {
         position: absolute;
-        top: 148px;
+        top: -130px;
         right: 100px;
         max-width: 282px;
     }

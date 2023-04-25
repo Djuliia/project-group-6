@@ -218,14 +218,6 @@ right: 0;
     margin-bottom: 0;
   }
 
-  .sale-descr-title::after {
-    left: 327px;
-  }
-
-  .sale-details-title::after {
-    left: 327px;
-  }
-
   .sale-container {
     display: flex;
   }
