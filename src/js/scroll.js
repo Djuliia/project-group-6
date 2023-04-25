@@ -3,7 +3,7 @@
  */
 function scrollToSection() {
     function smoothScroll(targetEl, duration) {
-        const offset = 40;
+        const offset = 35;
         let target = document.querySelector(targetEl);
         let targetPosition = target.getBoundingClientRect().top - offset;
         let startPosition = window.pageYOffset;
@@ -33,7 +33,7 @@ function scrollToSection() {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
                 const currentTarget = this.getAttribute('href');
-                smoothScroll(currentTarget, 2000);
+                smoothScroll(currentTarget, 1000);
                 if (mbMenu && mbMenu.classList.contains('is-open')) {
                     mbMenu.classList.remove('is-open')
                     document.body.removeAttribute('style')
