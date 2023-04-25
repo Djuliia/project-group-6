@@ -1,3 +1,4 @@
+
 /**---------------- Mobile ----------------*/
 
 .sale-galary {
@@ -30,6 +31,7 @@
 .sale-galary-item .current {
   max-height: 80px;
   min-width: 80px;
+  padding: 0 8px;
 }
 
 .sale-galary-pic {
@@ -66,7 +68,7 @@
 
 .sale-descr-title::after {
   position: absolute;
-  left: 318px;
+  right: 0;
   top: 20px;
   display: block;
   content: '';
@@ -86,7 +88,8 @@
 
 .sale-details-title::after {
   position: absolute;
-  left: 318px;
+position: absolute;
+right: 0;
   top: 20px;
   display: block;
   content: '';
@@ -230,7 +233,7 @@
   .sale-galary-item .current {
     max-height: 146px;
     min-width: 146px;
-    padding: 0 12px;
+    padding: 0 22px;
   }
 
   .sale-galary-image {
@@ -257,3 +260,4 @@
     margin-bottom: 20px;
   }
 }
+
