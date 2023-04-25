@@ -33,7 +33,7 @@ function scrollToSection() {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
                 const currentTarget = this.getAttribute('href');
-                smoothScroll(currentTarget, 2000);
+                smoothScroll(currentTarget, 1000);
                 if (mbMenu && mbMenu.classList.contains('is-open')) {
                     mbMenu.classList.remove('is-open')
                     document.body.removeAttribute('style')
