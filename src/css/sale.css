@@ -1,4 +1,3 @@
-
 /**---------------- Mobile ----------------*/
 
 .sale-galary {
@@ -88,8 +87,8 @@
 
 .sale-details-title::after {
   position: absolute;
-position: absolute;
-right: 0;
+  position: absolute;
+  right: 0;
   top: 20px;
   display: block;
   content: '';
@@ -107,7 +106,7 @@ right: 0;
 
 .sale-selection-price {
   position: relative;
-   font-size: 18px;
+  font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
 }
@@ -207,10 +206,6 @@ right: 0;
     margin-right: 13px;
   }
 
-  .container.sale-container {
-    width: 1142px;
-  }
-
   .sale-galary {
     margin-top: 124px;
     margin-right: 40px;
@@ -251,4 +246,3 @@ right: 0;
     margin-bottom: 20px;
   }
 }
-
