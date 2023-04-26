@@ -1,5 +1,4 @@
 .section__header {
-  /* background-color: darkgray; */
   position: absolute;
   top: 29px;
   right: 0px;
@@ -104,7 +103,7 @@
   width: 100%;
   height: 100%;
   overflow-y: auto;
-  padding: 34px 20px;
+  padding: 29px 20px;
   transform: translateX(100%);
   z-index: 100;
   transition: transform var(--transition);
@@ -178,9 +177,7 @@
 
 @media screen and (min-width: 768px) {
   .section__header {
-    top: 38px;
-    /* right: 32px;
-  left: 32px; */
+    top: 34px;
   }
 
   .header_navigation {
@@ -200,9 +197,6 @@
   .navigation_list {
     display: flex;
     text-align: center;
-    /* font-size: 9px;
-    line-height: 1.33;
-    text-transform: uppercase; */
     gap: 40px;
   }
 
