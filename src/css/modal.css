@@ -164,13 +164,14 @@ transition: border-color var(--transition), outline var(--transition);
 .modal-form,
 .modal-submit {
     max-width: 368px;
+    overflow: auto;
 }
   }
 
   @media screen and (min-width: 1280px) {
 .modal {
     max-width: 904px;
-    height: 694px;
+    max-height: 694px;
     gap: 40px;
     box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
     border-radius: 8px;
