@@ -27,6 +27,7 @@
   display: flex;
   align-items: center;
   transition: transform var(--transition);
+  outline: none;
 }
 
 .logo:hover,
@@ -66,6 +67,7 @@
   font-size: 9px;
   line-height: 1.33;
   text-transform: uppercase;
+  outline: none;
 }
 
 .header_address {
@@ -82,12 +84,14 @@
   color: var(--color-light-theme);
   font-size: 9px;
   line-height: 1.33;
+  outline: none;
 }
 
 .button_burger {
   fill: var(--color-light-theme);
   background-color: transparent;
   border: none;
+  outline: none;
 }
 
 .button_icon {
@@ -129,6 +133,7 @@
   align-items: center;
   padding: 0;
   transition: border var(--transition);
+  outline: none;
 }
 
 .close-button:hover,
@@ -182,6 +187,7 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  outline: none;
 }
 
 
