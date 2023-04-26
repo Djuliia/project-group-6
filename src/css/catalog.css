@@ -4,6 +4,7 @@
 .title-card{
 	margin-bottom: 4px;
 
+	font-size: 14px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
@@ -46,11 +47,13 @@
 	transition: transform var(--transition);
 }
 .thumb-overlay>pre{
+	font-family: inherit;
 	margin: 0;
 }
 .overlay-title{
 	margin-bottom: 10px;
 
+	font-size: 14px;
 	white-space: nowrap;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
