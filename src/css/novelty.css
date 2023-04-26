@@ -7,7 +7,7 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.06em;
-    color: var(--light-color);
+    color: var(--more-light-color);
     margin-bottom: 8px;
 }
 
@@ -50,5 +50,9 @@
 
     .novelty__item {
         flex-basis: calc((100% - 24px)/2);
+    }
+  
+  .novelty__suptitle {
+    margin-bottom: 80px;
     }
 }

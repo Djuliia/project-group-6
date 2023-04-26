@@ -135,6 +135,16 @@
 .close-button:focus {
   border: 1px solid var(--color-light-theme);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border var(--transition);
+}
+
+.close-button:hover,
+.close-button:focus {
+  border: 1px solid var(--color-light-theme);
+  border-radius: 50%;
 }
 
 .close-button_icon {

@@ -107,8 +107,7 @@ right: 0;
 
 .sale-selection-price {
   position: relative;
-  font-family: 'Neue Montreal';
-  font-size: 18px;
+   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
 }
