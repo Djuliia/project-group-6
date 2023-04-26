@@ -165,6 +165,7 @@ transition: border-color var(--transition), outline var(--transition);
 .modal-form,
 .modal-submit {
     max-width: 368px;
+    overflow: auto;
 }
   }
 
