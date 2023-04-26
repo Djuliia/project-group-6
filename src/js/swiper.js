@@ -15,7 +15,11 @@ const swiper = new Swiper(".watch-swiper", {
   },
   on: {
     slideChange() {
-      this.el.parentNode.querySelector(".carousel__number-of-watches").innerHTML = this.realIndex + 1 + '<span class="dash"></span>' + this.slides.length;
+      let ollSliders = this.slides.length,
+        slIndex = this.realIndex + 1,
+        numIndex = (slIndex <= 9) ? '0' : '',
+        numOll = (ollSliders <= 9) ? '0' : '';
+      this.el.parentNode.querySelector(".carousel__number-of-watches").innerHTML = numIndex.toString() + slIndex.toString() + '<span class="dash"></span>' + numOll.toString() + ollSliders.toString();
     }
   }
 

@@ -147,7 +147,7 @@ margin-bottom: 20px;
 }
 
     .footer-addres-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     
   }
 
@@ -159,7 +159,7 @@ margin-bottom: 20px;
   }
 
   .footer-menu-item{
-    transition: tansform var(--transition);
+    transition: transform var(--transition);
   }
 
   .footer-menu-item:hover {

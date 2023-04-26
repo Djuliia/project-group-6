@@ -3,19 +3,17 @@
  */
 function scrollToSection() {
     function smoothScroll(targetEl, duration) {
-        const offset = 35;
+        const offset = 40;
         let target = document.querySelector(targetEl);
         let targetPosition = target.getBoundingClientRect().top - offset;
         let startPosition = window.pageYOffset;
         let startTime = null;
-
         const ease = function (t, b, c, d) {
             t /= d / 2;
             if (t < 1) return c / 2 * t * t + b;
             t--;
             return -c / 2 * (t * (t - 2) - 1) + b;
         };
-
         const animation = function (currentTime) {
             if (startTime === null) startTime = currentTime;
             const timeElapsed = currentTime - startTime;
@@ -24,7 +22,6 @@ function scrollToSection() {
             if (timeElapsed < duration) requestAnimationFrame(animation);
         };
         requestAnimationFrame(animation);
-
     };
     const links = document.querySelectorAll('a.scroll-to'),
         mbMenu = document.querySelector('.js-menu-container');
@@ -43,4 +40,3 @@ function scrollToSection() {
     }
 }
 scrollToSection();
-
