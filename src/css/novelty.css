@@ -52,7 +52,7 @@
         flex-basis: calc((100% - 24px)/2);
     }
   
-  .novelty-suptitle {
+  .novelty__suptitle {
     margin-bottom: 80px;
     }
 }
