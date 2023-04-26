@@ -25,6 +25,7 @@
   --transition: 250ms linear;
   --bg-color: #FBFBFB;
   --pale-color: #C6CDD1;
+  --more-light-color: rgba(20, 20, 20, 0.4);
 }
 
 body {

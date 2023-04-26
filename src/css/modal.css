@@ -77,6 +77,7 @@
 }
 .modal-form {
     max-width: 368px;
+    overflow: auto;
 }
 .modal-input-wrap {
     display: flex;
