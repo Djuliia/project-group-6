@@ -43,21 +43,6 @@
     width: 100%;
     max-width: 276px;
 }
-.modal-item-name {
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    margin-bottom: 4px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-.modal-item-price {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: var(--light-color);
-}
 .modal-close {
     position: absolute;
     width: 20px;
