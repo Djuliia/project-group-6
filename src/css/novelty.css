@@ -29,6 +29,17 @@
 
 .novelty__item {
     flex-basis: 100%;
+    transition: var(--transition);
+}
+
+.item01:hover,
+.item02:hover {
+    transform: scale(1.1);
+}
+
+.item01:hover+.item02,
+.novelty__item.previous-card {
+    transform: scale(0.9);
 }
 
 @media screen and (min-width:768px) {
