@@ -18,6 +18,7 @@
    height: 24px;
    transform: translate(-50%, -50%);
    stroke: var(--color-dark-theme);
+	fill: white;
 }
 .catalog-title{
 	margin-bottom: 40px;
