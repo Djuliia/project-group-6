@@ -1,3 +1,25 @@
+.card-btn{
+   position: absolute;
+
+   top: 14px;
+   right: 14px;
+   cursor: pointer;
+   stroke-opacity: 0.4;
+   fill: var(--light);
+   background-color: transparent;
+   border: none;
+}
+.card-btn .icon {
+   position: absolute;
+	z-index: 2;
+   top: 50%;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   transform: translate(-50%, -50%);
+   stroke: var(--color-dark-theme);
+	fill: white;
+}
 .catalog-title{
 	margin-bottom: 40px;
 }
@@ -16,6 +38,9 @@
 	line-height: 1.17;
 	letter-spacing: -0.02em;
 	color: var(--light-color);
+}
+.catalog-card{
+	position: relative;
 }
 .catalog-link{
 	display: block;
