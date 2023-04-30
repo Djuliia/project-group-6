@@ -5,7 +5,7 @@
    right: 14px;
    cursor: pointer;
    stroke-opacity: 0.4;
-   fill: var(--light);
+   fill: transparent;
    background-color: transparent;
    border: none;
 }
@@ -18,7 +18,6 @@
    height: 24px;
    transform: translate(-50%, -50%);
    stroke: var(--color-dark-theme);
-	fill: white;
 }
 .card-btn .icon:hover{
 	stroke: red;
