@@ -25,11 +25,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
+    }
 
 .novelty__item {
     flex-basis: 100%;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .item01:hover,
