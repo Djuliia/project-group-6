@@ -20,6 +20,9 @@
    stroke: var(--color-dark-theme);
 	fill: white;
 }
+.card-btn .icon:hover{
+	stroke: red;
+}
 .catalog-title{
 	margin-bottom: 40px;
 }
