@@ -116,7 +116,7 @@
 	background: linear-gradient(180deg, transparent, var(--color-light-theme));
 }
 .styling:hover .button__line--right{
-	top: -100%;
+	top: 100%;
 	transition: 1s;
 	transition-delay: 0s;
 }
