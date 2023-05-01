@@ -101,9 +101,24 @@
 	opacity: 0;
 	visibility: hidden;
 }
+.box{
+	display: flex;
+	justify-content: end;
+}
+.styling{
+	border-radius: 8px;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	transition: 0.2s;
+	color: var(--color-light-theme);
+}
+.styling:hover{
+	box-shadow: 0 0 10px var(--secondary-color), 0 0 30px var(--secondary-color), 0 0 60px var(--secondary-color);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
 .btn-buy{
-	margin: 40px 0 0 auto;
-
 	display: block;
 	font-family: var(--font-family);
 	font-weight: 400;
@@ -120,7 +135,63 @@
 	transition: border var(--transition);
 }
 .btn-buy:hover{
-	border: 1px solid var(--color-light-theme);
+	color: var(--secondary-color);
+	background-color: var(--color-light-theme);
+	border: 1px solid var(--secondary-color);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+.button-line{
+	position: absolute;
+	display: block;
+}
+.button-line-top{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(90deg, transparent, var(--color-light-theme));
+}
+.styling:hover .button-line-top{
+	left: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+.button-line-bottom{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(270deg, transparent, var(--color-light-theme));
+}
+.styling:hover .button-line-bottom{
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+.button-line-left{
+	bottom: -100%;
+	left: 0;
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(0deg, transparent, var(--color-light-theme));
+}
+.styling:hover .button-line-left{
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0s;
+}
+.button-line-right{
+	top: -100%;
+	right: 0;
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, var(--color-light-theme));
+}
+.styling:hover .button-line-right{
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0s;
 }
 @media screen and (min-width: 768px){
 	.catalog-list {
@@ -139,18 +210,10 @@
 		padding: 18px 35px;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 1279px){
-	.catalog-icon{
-		position: absolute;
-		top: 14px;
-		right: 14px;
-		width: 24px;
-		height: 24px;
-	}
-}
 @media screen and (min-width: 1280px){
 	.catalog-list {
 		gap: 64px 24px;
+		margin-bottom: 80px;
 	}
 	.catalog-card{
 		flex-basis: calc((100% - 72px) / 4);
@@ -186,6 +249,9 @@
 @media screen and (max-width: 1279px){
 	.catalog-card:nth-child(n + 9){
 		display: none;
+	}
+	.catalog-list{
+		margin-bottom: 40px;
 	}
 	.thumb-overlay{
 		padding: 40px;
