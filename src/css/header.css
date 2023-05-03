@@ -54,13 +54,13 @@
 .navigation_items {
   transition: transform var(--transition);
 }
-.styling{
+.stylized{
 	position: relative;
 	overflow: hidden;
 	transition: 0.2s;
 	color: var(--color-light-theme);
 }
-.styling:hover{
+.stylized:hover{
 	background-color: var(--color-light-theme);
 	color: var(--color-dark-theme);
 	font-weight: 600;
@@ -79,7 +79,7 @@
 	height: 2px;
 	background: linear-gradient(90deg, transparent, var(--color-light-theme));
 }
-.styling:hover .button__line--top{
+.stylized:hover .button__line--top{
 	left: 100%;
 	transition: 1s;
 	transition-delay: 0.25s;
@@ -91,7 +91,7 @@
 	height: 2px;
 	background: linear-gradient(270deg, transparent, var(--color-light-theme));
 }
-.styling:hover .button__line--bottom{
+.stylized:hover .button__line--bottom{
 	right: 100%;
 	transition: 1s;
 	transition-delay: 0.25s;
@@ -103,7 +103,7 @@
 	height: 100%;
 	background: linear-gradient(0deg, transparent, var(--color-light-theme));
 }
-.styling:hover .button__line--left{
+.stylized:hover .button__line--left{
 	bottom: 100%;
 	transition: 1s;
 	transition-delay: 0s;
@@ -115,7 +115,7 @@
 	height: 100%;
 	background: linear-gradient(180deg, transparent, var(--color-light-theme));
 }
-.styling:hover .button__line--right{
+.stylized:hover .button__line--right{
 	top: 100%;
 	transition: 1s;
 	transition-delay: 0s;
